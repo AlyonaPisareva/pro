@@ -13,7 +13,7 @@ for(int i=0; i<n; i++){
         twol=r[m-o];
         twor=a;
     }
-    if(0!=m){
+    if(o<m){
         if(a>r[o]) r[o]=a;
     }
     else if (a>r[0]) r[0]=a;
