@@ -1,10 +1,14 @@
 #include <iostream>
 using namespace std;
+
 int main() {
-int n, a, o, twol=0, twor=0;
-int m=120;
-int r[120]={0};
-cin>> n;
+  int n, a, o, twol=0, twor=0;
+  int m=120;
+  int r[120];
+  cin>> n;
+  for (int i=0; i<n; i++){
+  	r[i]=-1;
+  	}
 for(int i=0; i<n; i++){
     cin>> a;
     o=a%m;
